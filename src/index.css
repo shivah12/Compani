@@ -23,19 +23,19 @@
   justify-content: space-between;
   font-size: 1.3rem;
   text-transform: capitalize;
-  color: #ffffff; /* Set default color to white */
-  transition: color 0.3s; /* Add transition for smooth color change */
+  color: #ffffff;
+  transition: color 0.3s;
 }
 .navbar a:active {
-  color: #ffffff !important; /* Set the active color to white */
+  color: #ffffff !important; 
 }
 
 .navbar a:hover {
-  color: #fff; /* Change color to white on hover */
-  background: linear-gradient(to right, #786fad, #c5c5c660, #554da1); /* Add gradient effect */
-  -webkit-background-clip: text; /* Clip the gradient to the text */
-  background-clip: text; /* Clip the gradient to the text */
-  -webkit-text-fill-color: transparent; /* Hide the text fill color */
+  color: #fff; 
+  background: linear-gradient(to right, #786fad, #c5c5c660, #554da1);
+  -webkit-background-clip: text; 
+  background-clip: text; 
+  -webkit-text-fill-color: transparent; 
 }
 
 .menu_active {
@@ -99,10 +99,10 @@
 
 .header-img {
   text-align: right;
-  margin-top: 80px; /* Adjust margin-top to create space between navbar and header image */
+  margin-top: 80px; 
 }
 
-/* Media Query for smaller screens like Samsung Galaxy S23 FE */
+/* Media Query for smaller screens */
 @media (max-width: 480px) {
   .navbar-brand {
     font-size: 1.2rem !important;
