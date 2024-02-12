@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Navbar = () => {
+  useEffect(() => {
+    AOS.init({}); // Initialize AOS
+  }, []);
+
   return (
     <>
       <div className="container-fluid nav_bg">
@@ -27,7 +33,10 @@ const Navbar = () => {
                   className="collapse navbar-collapse"
                   id="navbarSupportedContent"
                 >
-                  <ul className="navbar-nav ml-auto mb-2 mb-lg-0 d-flex justify-content-end w-100">
+                  <ul
+                    className="navbar-nav ml-auto mb-2 mb-lg-0 d-flex justify-content-end w-100"
+                    data-aos="fade-left" // Example animation attribute
+                  >
                     <li className="nav-item">
                       <NavLink
                         activeClassName="menu_active"
