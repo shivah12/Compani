@@ -9,7 +9,7 @@ const Card = ({
     title
 }) => {
     useEffect(() => {
-        AOS.init({ duration: 5000 });
+        AOS.init({ duration: 3000 });
     }, []);
 
     return (
