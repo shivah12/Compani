@@ -1,0 +1,29 @@
+.btn-gradient {
+    background: linear-gradient(to right, #1d1849, #6b6b6b49, #201952);
+    border: 1px solid #786fad ;
+    transition: background 0.3s ease;
+
+}
+
+.btn-gradient:hover {
+    background: linear-gradient(to right, #786fad, #c5c5c660, #554da1);
+}
+/* In your Contact.css file */
+.contact-input {
+    background-color: rgb(249, 249, 249); /* Adjust the opacity as needed */
+    border: none;
+    border-radius: 10px; /* Increase the border-radius for a smoother surface */
+    color: white;
+    padding: 15px; /* Increase the padding for better spacing */
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.contact-input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); 
+}
+
+.contact-input textarea {
+    resize: none; 
+}

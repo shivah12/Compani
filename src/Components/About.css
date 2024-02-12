@@ -1,0 +1,10 @@
+.btn-gradient {
+    background: linear-gradient(to right, #1d1849, #6b6b6b49, #201952);
+    border: 1px solid #786fad ;
+    transition: background 0.3s ease;
+
+}
+
+.btn-gradient:hover {
+    background: linear-gradient(to right, #786fad, #c5c5c660, #554da1);
+}

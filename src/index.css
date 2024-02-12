@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background-color: #19162D;
+}
+
+.navbar {
+  background-color: #00000000 !important;
+  justify-content: space-between;
+}
+
+.navbar-brand {
+  font-size: 1.9rem !important;
+  color: #ffffff !important;
+}
+
+.navbar a {
+  justify-content: space-between;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  color: #ffffff; /* Set default color to white */
+  transition: color 0.3s; /* Add transition for smooth color change */
+}
+.navbar a:active {
+  color: #ffffff !important; /* Set the active color to white */
+}
+
+.navbar a:hover {
+  color: #fff; /* Change color to white on hover */
+  background: linear-gradient(to right, #786fad, #c5c5c660, #554da1); /* Add gradient effect */
+  -webkit-background-clip: text; /* Clip the gradient to the text */
+  background-clip: text; /* Clip the gradient to the text */
+  -webkit-text-fill-color: transparent; /* Hide the text fill color */
+}
+
+.menu_active {
+  font-weight: bold;
+}
+
+
+
+@media (max-width: 991px) {
+  .navbar-brand {
+    font-size: 1.5rem !important;
+  }
+
+  .menu_active {
+    font-weight: bold;
+    border-bottom: none;
+  }
+}
+
+#header {
+  width: 100%;
+  height: 80vh;
+  border-bottom: none;
+}
+
+#header h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+#header .brand-name {
+  color: #ebebeb;
+}
+
+#header h2 {
+  color: #f3ebeb;
+  font-size: 24px;
+}
+
+.button {
+  background-color: #cdcdcd;
+}
+
+#header .btn-get-started {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  border: 2px solid #cdcdcd;
+  text-decoration: none;
+  background: linear-gradient(to right, #1d1849, #6b6b6b49, #201952);
+  color: #fff;
+}
+
+#header .btn-get-started:hover {
+  background: linear-gradient(to right, #786fad, #c5c5c660, #554da1);
+}
+
+.header-img {
+  text-align: right;
+}
+
+/* already animated svg available */
+#header .animated {
+  animation: up-down 2.5s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateX(10px);
+  } 
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+#coverImg {
+  object-fit: cover;
+}
