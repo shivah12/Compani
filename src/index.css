@@ -11,6 +11,7 @@
 .navbar {
   background-color: #00000000 !important;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .navbar-brand {
@@ -43,7 +44,7 @@
 
 
 
-@media (max-width: 991px) {
+@media (max-width: 901px) {
   .navbar-brand {
     font-size: 1.5rem !important;
   }
@@ -100,6 +101,7 @@
 
 .header-img {
   text-align: right;
+  margin-top: 100px;
 }
 
 /* already animated svg available */
