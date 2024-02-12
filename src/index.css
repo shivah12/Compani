@@ -101,7 +101,7 @@
 
 .header-img {
   text-align: right;
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
 /* already animated svg available */
@@ -111,19 +111,19 @@
 
 @-webkit-keyframes up-down {
   0% {
-    transform: translateY(10px);
+    transform: translateY(5px);
   }
   100% {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
   }
 }
 
 @keyframes up-down {
   0% {
-    transform: translateX(10px);
+    transform: translateX(5px);
   } 
   100% {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
   }
 }
 
