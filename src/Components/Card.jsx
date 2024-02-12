@@ -12,7 +12,7 @@ const Card = ({
         AOS.init({ 
             duration: 1000, 
             easing: 'ease', 
-            offset: 200, 
+            offset: 400, 
         });
     }, []);
 
