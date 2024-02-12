@@ -9,7 +9,7 @@ const Card = ({
     title
 }) => {
     useEffect(() => {
-        AOS.init({ duration: 3000 });
+        AOS.init({ duration: 4000 });
     }, []);
 
     return (
@@ -19,8 +19,8 @@ const Card = ({
                     <img src={imgsrc} className="card-img-top" id="coverImg" alt="card" />
                     <div className="card-body">
                         <h5 className="card-title text-white">{title}</h5>
-                        <p className="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <NavLink to="/" className="btn btn-outline-primary mt-3 text-white btn-gradient">Go somewhere</NavLink>
+                        <p className="card-text text-white">Small Description of heat we aim to do.</p>
+                        <NavLink to="/" className="btn btn-outline-primary mt-3 text-white btn-gradient">Explore..</NavLink>
                     </div>
                 </div>
             </div>
