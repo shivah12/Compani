@@ -1,6 +1,4 @@
 import React, { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import Navbar from "./Components/Navbar";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -12,9 +10,7 @@ import Contact from "./Components/Contact";
 import './App.css'
 
 function App() {
-  useEffect(() => {
-    AOS.init({ duration: 1000 }); 
-  }, []);
+ 
 
   return (
     <Router>
