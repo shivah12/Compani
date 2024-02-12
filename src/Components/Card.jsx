@@ -9,7 +9,10 @@ const Card = ({
     title
 }) => {
     useEffect(() => {
-        AOS.init({ duration: 3000 });
+        AOS.init({ 
+            duration: 1000, 
+            easing: 'ease', 
+        });
     }, []);
 
     return (
@@ -19,7 +22,7 @@ const Card = ({
                     <img src={imgsrc} className="card-img-top" id="coverImg" alt="card" />
                     <div className="card-body">
                         <h5 className="card-title text-white">{title}</h5>
-                        <p className="card-text text-white">Small Description of heat we aim to do.</p>
+                        <p className="card-text text-white">Small Description of what you aim to do.</p>
                         <NavLink to="/" className="btn btn-outline-primary mt-3 text-white btn-gradient">Explore..</NavLink>
                     </div>
                 </div>
